@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <math.h>
 
 int main()
 {
@@ -13,8 +13,8 @@ int main()
     triangle += counter;
     
     int factors = 0;
-    for(i = 1; i <= triangle; ++i)
-      if(triangle % i == 0) ++factors;
+    for(i = 1; i <= sqrt(triangle) + 1; ++i)
+      if(triangle % i == 0) factors += 2;
     if(factors > 500) break;
     
     //if(counter % 500 == 0)
