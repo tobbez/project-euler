@@ -1,7 +1,7 @@
 ID=3
 
-all: $(ID).cpp
-	g++ $^ -o $(ID) -O3
+all: $(ID).c
+	gcc $^ -o $(ID) -O3 -lm
 
 time: all
 	/usr/bin/time ./$(ID)
