@@ -1,6 +1,6 @@
 ID=2
 
-all: $(ID).cpp
+all: $(ID).c
 	g++ $^ -o $(ID) -O3
 
 time: all

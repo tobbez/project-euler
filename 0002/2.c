@@ -1,4 +1,4 @@
-#include <iostream>
+#include <stdio.h>
 
 int main()
 {
@@ -13,6 +13,6 @@ int main()
     if (n2 > 1000000) break;
     if (n2 % 2 == 0) sum += n2;
   }
-  std::cout << sum << std::endl;
+  printf("%i\n", sum);
   return 0;
 }
