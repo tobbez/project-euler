@@ -5,7 +5,7 @@ int main()
   int n1=1, n2=2;
   int sum = 2;
   int tmp;
-  while(true)
+  while(1)
   {
     tmp = n1 + n2;
     n1 = n2;
