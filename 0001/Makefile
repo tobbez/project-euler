@@ -1,5 +1,5 @@
-all: 1.cpp
-	g++ $^ -o 1 -O3
+all: 1.c
+	gcc $^ -o 1 -O3
 
 time: all
 	/usr/bin/time ./1
