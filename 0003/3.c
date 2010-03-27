@@ -11,6 +11,6 @@ int main(int argc, char **argv)
     if(number % latest == 0)
       number /= latest;
   }
-  printf("largest factor of %i is %li\n", number, latest);
+  printf("%li\n", latest);
   return 0;
 }
