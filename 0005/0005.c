@@ -35,6 +35,6 @@ int main (int argc, char **argv) {
     k *= pow(primes[i], primeexps[i]);
   }
 
-  printf("answer: %i\n", k);
+  printf("%i\n", k);
   return 0;
 }
