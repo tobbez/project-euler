@@ -29,7 +29,7 @@ int main (int argc, char **argv)
     }
   }
 
-  printf("largest palindromic number: %i\n", largest);
+  printf("%i\n", largest);
 
   return 0;
 }
