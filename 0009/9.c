@@ -3,9 +3,11 @@
 
 int main()
 {
-  for(int b = 0; b <= 1000; b++)
+  int b;
+  int a;
+  for(b = 0; b <= 1000; b++)
   {
-    for(int a = 0; a < b; a++)
+    for(a = 0; a < b; a++)
     {
       int cs = a*a + b*b;
       int c = (int)sqrt(cs);
